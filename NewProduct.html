@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="CSS/style.css">
+    <title>New Product</title>
+  </head>
+  <body>
+    <nav>
+      <div class="nav-main">
+        <div class="nav-header">
+          <img src="media/elephant_silhouet.svg" alt="" width="50px" height="50px">
+          <i class="fas fa-bars"></i>
+        </div>
+        <ul class="menu">
+          <li><a href="Index.html">Products</a></li>
+          <li><a href="Car.html">Car</a></li>
+          <li><a>Login</a></li>
+          <li><a href="NewProduct.html">New Product</a></li>
+        </ul>
+      </div>
+      </nav>
+<div class="newProductContainer">
+    <div class="formCard">
+      <h3>New product</h3>
+
+      <form id="newProduct">
+        <label for="name">Name</label>
+        <input  type="text" name="name" id="name">
+        <span class="warning" id="nameWarning">required field</span>
+
+        <label for="price">Price</label>
+        <input type="number" name="price" id="price">
+        <span class="warning" id="priceWarning">required field</span>
+
+        <label for="numberOfBooks">Inventory</label>
+        <input type="number" name="inventory" id="numberOfBooks">
+        <span class="warning" id="numberOfBooksWarning">required field</span>
+        <button>Create Product</button>
+      </form>
+    </div>
+  </div>
+  <script src="JS/NewProduct.js"></script>
+  </body>
+</html>
